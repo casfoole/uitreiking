@@ -1,0 +1,85 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+header{
+    height: 70px;
+    width: 100%;
+    background-color: #093247;
+}
+.triangle-down {
+    margin: 0 auto;
+    width: 500px;
+    height: 0;
+    border-left: 55px solid transparent;
+    border-right: 55px solid transparent;
+    border-top: 33px solid #093247;
+}
+.blockSection{
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+}
+#blokken{
+    margin: 0 50px 0 50px;
+    text-align: center;
+}
+.block{
+    height: 180px;
+    width: 12vw;
+    min-width: 100px;
+    max-width: 150px;
+    background-color: #456990;
+    border-radius: 3px;
+    margin: 10px;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+}
+.block, #score, #name{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'Righteous', cursive;
+}
+#score_text{
+    margin-bottom: -20px;
+    font-size: 25px;
+}
+.count{
+    margin-top: -20px;
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+}
+#dialog{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    background-color: lightgrey;
+    padding: 15px;
+    border-radius: 5px;
+}
+#buttonNinputs{
+    font-family: 'Open Sans', sans-serif;
+}
+#buttonNinputs input{
+    margin: 1px;
+}
+#scorebord{
+    font-family: 'Open Sans', sans-serif;
+    width: 400px;
+    height: auto;
+    position: fixed;
+    top: 25%;
+    left: 36%;
+    margin-top: -100px;
+    background-color: white;
+    text-align: center;
+    display: none;
+    border-radius: 20px;
+    border: 3px #FCDFA6 solid;
+}
