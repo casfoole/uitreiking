@@ -7,22 +7,22 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
-        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
     <script src="counter.js"></script>
     <script src="json.js"></script>
-    <script src="xlsx.full.min.js"></script>
+    <script src="dist/xlsx.full.min.js"></script>
+    <link rel="stylesheet" href="http://github.hubspot.com/odometer/themes/odometer-theme-car.css" />
+    <script src="http://github.hubspot.com/odometer/odometer.js"></script>
     <title>Uitreiking</title>
 </head>
 <body>
 <header>
-    <!--<input type="file" id="file-excel" required>-->
+    <input type="url" id="xlsxURL" required>
+    <button onclick="getURL()">click</button>
 </header>
 <div class="triangle-down">
-
+    <img>
 </div>
 <br>
 
@@ -34,19 +34,12 @@
     <label style="color: black;" id="place#4"><h3 id="other"></h3></label>
 </section>
 
-<section id="buttonNinputs">
-
-
-    <p id="display"></p>
-    <p id="blocks"></p>
-
-</section>
 <section class="blockSection" id="blockSection">
     <div id="blokken">
-        <div class="sprite"></div>
-    </div>
+        <div class="sprite">
 
-    <div class="count" style="color: black">500</div>
+        </div>
+    </div>
 </section>
 </body>
 </html>
